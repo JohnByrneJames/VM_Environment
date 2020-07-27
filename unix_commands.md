@@ -1,4 +1,4 @@
- inside our VM ubuntu 16.04
+- inside our VM ubuntu 16.04
 
 ## sudo apt-get update -y  
 
@@ -19,3 +19,18 @@ EXERCISE
 - Check the current dir location and document the command to access the dir and exit
 - How to save the file in nano
 - (..cd) takes you back 1 directoryy
+
+- **Continuation**
+
+- How can we navigate in Linux
+- Go back a directory is (..cd)
+- Go back to home location is (cd) for example the base drive or VM root
+- How do we remove a file #sudo rm myfirstfile.txt (this removes the file) - doesn't work as directory
+- If you want to access the root/ admin rights inside a virtual machine use #sudo su (can be password protected)
+- how to check who is using the machine #id (this will give you a rundown of all users in the machine)
+- In order to print on the command line use #echo (like in a programming language)
+
+- How can we install packages - sudo apt-get install nginx -
+- We can then check the status, start or stop the service.  - systemctl status nginx -  
+
+
